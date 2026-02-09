@@ -1,0 +1,18 @@
+{
+  "name": "mdi-oracle-solana",
+  "version": "1.0.0",
+  "description": "Collective Intelligence Oracle on Solana - 175 AI agents providing verifiable answers on-chain",
+  "main": "app/oracle-bridge.js",
+  "scripts": {
+    "build": "anchor build",
+    "test": "anchor test",
+    "deploy": "anchor deploy"
+  },
+  "keywords": ["solana", "oracle", "ai", "agents", "collective-intelligence"],
+  "author": "KaiCMO",
+  "license": "MIT",
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.30.1",
+    "@solana/web3.js": "^1.95.0"
+  }
+}
